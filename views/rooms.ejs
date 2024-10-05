@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salas</title>
+</head>
+<body>
+    <h1>Bem-vindo às Salas!</h1>
+    
+    <h2>Criar Sala</h2>
+    <form action="/rooms/create" method="POST">
+        <button type="submit">Criar Sala</button>
+    </form>
+
+    <h2>Entrar em uma Sala</h2>
+    <form action="/rooms/join" method="POST">
+        <label for="token">Token da Sala:</label>
+        <input type="text" id="token" name="token" required>
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
