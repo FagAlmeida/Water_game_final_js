@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
 
 // Conexão com o MongoDB
-mongoose.connect('mongodb+srv://fagalmeida2:buceta@cluster0.ypgke.mongodb.net/', {
+mongoose.connect('mongodb+srv://admin:admin@agoravaiii.n11jp.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
